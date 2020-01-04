@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "Cluster0"
+  },
+  "AccessToken": {
+    "dataSource": "Cluster0",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "Cluster0",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "Cluster0",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "Cluster0",
+    "public": false
+  },
+  "grant": {
+    "dataSource": "Cluster0",
+    "public": true
+  },
+  "category": {
+    "dataSource": "Cluster0",
+    "public": true
+  },
+  "auditory": {
+    "dataSource": "Cluster0",
+    "public": true
+  },
+  "country": {
+    "dataSource": "Cluster0",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "container",
+    "public": true
+  }
+}

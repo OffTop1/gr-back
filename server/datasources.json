@@ -1,0 +1,24 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads"
+  },
+  "Cluster0": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://Sunny1:SuperSecret123@cluster0-dklmk.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "",
+    "password": "",
+    "user": "",
+    "useUnifiedTopology": true,
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
+
